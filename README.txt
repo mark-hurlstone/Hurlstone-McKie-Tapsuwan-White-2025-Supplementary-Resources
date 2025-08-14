@@ -1,0 +1,1 @@
+This repository contains the data and analysis scripts for: Hurlstone, M. J., McKie, G., Tapsuwan, S., & White, B. (2025, submitted). The biosecurity collective-risk social dilemma: Simulating the prevention of a rapidly spreading pest. 

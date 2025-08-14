@@ -1,0 +1,21 @@
+Each row represents data for a single player. The columns are as follows:
+1: Group (1–24): Unique group identifier.
+2: Player (1–4): Player ID within the group.
+3: Communication (No Communication, Communication): Indicates whether the group could communicate.
+4: Response to play panel 1 of the virtual lottery game
+5: Response to play panel 2 of the virtual lottery game
+6: Response to play panel 3 of the virtual lottery game
+7: Sigma: Estimated risk aversion parameter from the virtual lottery game.
+8: Alpha: Estimated probability weighting parameter from the virtual lottery game
+9: Lambda: Estimated loss aversion parameter from the virtual lottery game.
+10–24: LC_1–LC_15: Player’s investment decisions in the low-risk treatment across Rounds 1–15 (0 = no protection, 1 = protection).
+25–39: HC_1–HC_15: Player’s investment decisions in the high-risk treatment across Rounds 1–15 (0 = no protection, 1 = protection).
+40–54: LO_1–LO_15: Outbreaks in the low-risk treatment across Rounds 1–15 (0 = no outbreak, 1 = outbreak).
+55–69: HO_1–HO_15: Outbreaks in the high-risk treatment across Rounds 1–15 (0 = no outbreak, 1 = outbreak).
+70–84: LP_1–LP_15: Player’s individual payoffs in the low-risk treatment across Rounds 1–15 (in tokens).
+85–99: HP_1–HP_15: Player’s individual payoffs in the high-risk treatment across Rounds 1–15 (in tokens).
+100: RA: Self-report measure of risk aversion (0 = no, 1 = maybe, 2 = yes ).
+101: LA: Self-report measure of loss aversion (1 = does not describe me at all, 7 = describes me perfectly).
+102–105: ST_P1–ST_P4: Responses to situational trust items (1 = no trust, 5 = a lot of trust).
+106–114: GT_I1–GT_I5: Responses to general trust items (1 = strongly disagree, 5 = strongly agree).
+115: Strategy: Player's self-reported decision-making strategy (1 = non contributor, 2 = free rider, 3 = loss averse, 4 = conditional cooperator, 5 = moral cooperator, 6 = worthwhile cooperator).
